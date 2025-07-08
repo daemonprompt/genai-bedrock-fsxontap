@@ -16,10 +16,4 @@ variable "fsxname" {
 variable "collection_name" {
   default     = "fsxnragvector"
   description = "default collection name"
-  
-}
-
-variable "var.azs" {
-  default     = "private"
-  description = "Private Subnet Name"
 }
