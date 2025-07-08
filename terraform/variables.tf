@@ -19,3 +19,7 @@ variable "collection_name" {
   
 }
 
+variable "var.azs" {
+  default     = "private"
+  description = "Private Subnet Name"
+}
